@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+header,section{
+    width: 400px;
+    position: relative;
+    margin: auto;
+}
+
+body{
+    background: -webkit-radial-gradient(left,circle, rgb(222, 203, 233) 40%,rgb(102, 180, 216));
+}

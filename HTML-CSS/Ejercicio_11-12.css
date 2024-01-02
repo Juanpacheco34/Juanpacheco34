@@ -1,0 +1,12 @@
+@charset "utf-8";
+section{
+    width: 500px;
+    border:2px solid blue;
+    position: relative;
+    margin:  100px auto;
+
+}
+
+th{
+    padding-top: 20px;
+}

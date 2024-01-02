@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 6</title>
+</head>
+
+<body >
+    <header style="text-align: center;">
+        <h1 style="text-decoration: uppercase;">Registro de Usuarios</h1>
+    </header>
+    <section style="width: 300px; background-color: aquamarine; position: relative; margin: auto; border-style: double;">
+        <form action="" name="Formulario" method="get" style="width: 300px; height: 350px; margin: 0px 50px; padding-top: 5%; display: inline-block;">
+            <table>
+                <tr>
+                    <td>
+                        <label for="nombre">Nombre del Usuario</label>
+                        <input type="text" name="nombre" id="nombre">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="pass">Contraseña del Usuario</label>
+                        <input type="password" name="pass" id="pass">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="fecha">Fecha de nacimiento del Usuario</label>
+                        <input type="date" name="fecha" id="fecha">
+                    </td>
+                </tr>
+            </table>
+
+            <span style="font-size: 20px;">Sexo del Usuario</span>
+            <br>
+            <input type="radio" name="sexo" id="hombre" value="hombre">
+            <label for="hombre">Hombre</label>
+            <br>
+            <input type="radio" name="sexo" id="mujer" value="mujer">
+            <label for="mujer">Mujer</label>
+            <br>
+            <input type="radio" name="sexo" id="otro" value="otro">
+            <label for="otro">Otro</label>
+            <br>
+            <span style="font-size: 20px;">Pais de nacimiento</span>
+            <br>
+            <select style="margin-top: 10px;" name="pais" id="">
+                <option>Argentina</option>
+                <option>Colombia</option>
+                <option>Mexico</option>
+                <option>Venezuela</option>
+            </select>
+            <br>
+            <div style="margin-top: 50px;"></div>
+            <input type="reset" value="Borrar">
+            <div style="display: inline;; margin-left: 100px;"></div>
+            <input type="submit" value="Enviar">
+
+        </form>
+    </section>
+
+</body>
+
+</html>

@@ -1,0 +1,25 @@
+@charset "UTF-8";
+body{
+    background-color: azure;
+
+}
+
+header{
+    width: 400px;
+    position: relative;
+    margin: auto;
+}
+h1,h2{
+font-family: Verdana;
+text-align: center;
+text-decoration: underline;
+}
+
+section{
+    width: 400px;
+    position: relative;
+    margin: auto;
+    text-align: left;
+    font-family: 'Gill Sans';
+
+}
