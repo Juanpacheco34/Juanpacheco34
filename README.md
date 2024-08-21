@@ -2,7 +2,7 @@
 
 💫 ABOUT ME:  
 👋 Hi, I’m Juan Daniel Pacheco Perez  
-👀 I'm passionate about the world of Programming 
+👀 I'm passionate about the world of Programming  
 🌱 I’m interested in Full Stack Development  
 💞️ I have good soft skills and good development when working with other people  
 💻 Currently I continue studying and acquiring knowledge in new technologies
